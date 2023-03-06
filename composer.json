@@ -1,5 +1,5 @@
 {
-  "name": "zmoyi/jushuitan",
+  "name": "vtnil/jushuitan",
   "description": "聚水潭-php-sdk",
   "keywords": ["JuShuiTan", "ERP"],
   "type": "library",
@@ -11,7 +11,7 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "zmoyi\\JuShuiTan\\": "src/"
+      "vtnil\\JuShuiTan\\": "src/"
     }
   },
   "authors": [

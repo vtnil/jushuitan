@@ -1,6 +1,6 @@
 <?php
 
-namespace zmoyi\JuShuiTan;
+namespace vtnil\JuShuiTan;
 
 use GuzzleHttp\Client;
 
