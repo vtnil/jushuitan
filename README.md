@@ -10,7 +10,7 @@
 ## 安装
 
 ```composer
-composer require zmoyi/jushuitan 
+composer require vtnil/jushuitan 
 ```
 
 ## 配置以及使用
@@ -30,8 +30,8 @@ $config = [
 ### api调用
 
 ```php
-use zmoyi\JuShuiTan\Api\ApiRequest;
-use zmoyi\JuShuiTan\Api\Common\ServeHttp;
+use vtnil\JuShuiTan\Api\ApiRequest;
+use vtnil\JuShuiTan\Api\Common\ServeHttp;
 
 $data = [
     'shop_id' => '123456'
@@ -46,7 +46,7 @@ $response = $apiRequest->request(ServeHttp::QUERY_SKUMAP,$data);
 
 ### auth调用
 ```php
-use zmoyi\JuShuiTan\Auth\Auth;
+use vtnil\JuShuiTan\Auth\Auth;
 /**
 * config同上
  */
@@ -73,7 +73,7 @@ $refToken = $Auth->refreshToken($accessToken);
 /**
 * 调用示例
  */
- \zmoyi\JuShuiTan\Api\Common\ServeHttp::QUERY_AFTERSALE_RECEIVED;
+ \vtnil\JuShuiTan\Api\Common\ServeHttp::QUERY_AFTERSALE_RECEIVED;
   /**
      * 基础API路由
      */
