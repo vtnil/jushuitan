@@ -10,7 +10,7 @@ class JuShuiTan
      * 全局config配置
      * @var array
      */
-    protected array $config = [
+    protected $config = [
         'authUrl' => 'https://openweb.jushuitan.com/auth',
         'baseUrl' => '',
         'access_token' => '',
@@ -25,7 +25,7 @@ class JuShuiTan
      * 公共请求参数
      * @var array|string[]
      */
-    protected array $publicRequestParams = [
+    protected $publicRequestParams = [
         'app_key' => '',
         'access_token' => '',
         'timestamp' => '',
@@ -37,19 +37,19 @@ class JuShuiTan
      * Client请求
      * @var Client
      */
-    protected Client $client;
+    protected $client;
 
     /**
      * 定义获取access—token Url
      * @var string
      */
-    protected string $getAccessTokenUrl = 'https://openapi.jushuitan.com/openWeb/auth/accessToken';
+    protected $getAccessTokenUrl = 'https://openapi.jushuitan.com/openWeb/auth/accessToken';
 
     /**
      * 定义refresh-token地址
      * @var string
      */
-    protected string $refreshTokenUrl = 'https://openapi.jushuitan.com/openWeb/auth/refreshToken';
+    protected $refreshTokenUrl = 'https://openapi.jushuitan.com/openWeb/auth/refreshToken';
 
     /**
      * 获取config配置

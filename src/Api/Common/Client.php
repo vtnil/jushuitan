@@ -9,7 +9,7 @@ use Psr\Http\Message\ResponseInterface;
 
 class Client
 {
-    protected static string $url;
+    protected static $url;
 
     public static function post($url, $data):array
     {

@@ -6,7 +6,7 @@ use vtnil\JuShuiTan\JuShuiTan;
 
 class Util
 {
-    protected static array $params;
+    protected static $params;
 
     /**
      * @param JuShuiTan $juShuiTan
