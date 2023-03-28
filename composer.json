@@ -4,7 +4,7 @@
   "keywords": ["JuShuiTan", "ERP"],
   "type": "library",
   "require": {
-    "php": ">=7.4.3",
+    "php": ">=7.2.0",
     "guzzlehttp/guzzle": "^6.5.0",
     "ext-json": "*"
   },
